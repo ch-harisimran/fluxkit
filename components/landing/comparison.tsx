@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { CheckIcon } from "@/components/icons";
 
 const rows = [
-  ["Auth system", "Included and ready", "You build it yourself"],
-  ["Stripe billing", "Included and ready", "You wire it from scratch"],
-  ["Push notifications", "Included and ready", "You decide the whole setup"],
+  ["Auth system", "Skip 2 to 3 days of work", "Build it yourself"],
+  ["Stripe billing", "Start charging sooner", "Wire it from scratch"],
+  ["Push notifications", "Ship engagement faster", "Decide the whole setup"],
   ["Project structure", "Clear and organized", "Starts messy and grows fast"],
   ["Setup time", "Hours, not weeks", "Usually days or weeks"],
   ["Production readiness", "Built for launch", "Easy to miss important pieces"],

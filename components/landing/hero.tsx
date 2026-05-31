@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { ArrowRightIcon, PlayIcon, ShieldIcon, SparkIcon, UsersIcon } from "@/components/icons";
 
 const trustMetrics = [
-  { value: "24 hrs", label: "to move from idea to launch" },
+  { value: "This weekend", label: "from idea to launch" },
   { value: "No signup", label: "required to see the demo" },
-  { value: "1 purchase", label: "gets the full starter" }
+  { value: "1 purchase", label: "covers the full starter" }
 ];
 
 export function Hero() {
@@ -57,13 +57,13 @@ export function Hero() {
           >
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-white/72">
               <ShieldIcon className="h-4 w-4 text-cyan-300" />
-              Used by indie hackers to launch paid products faster
+              For indie hackers, solo founders, and MVP builders who want to launch fast
             </div>
             <h1 className="text-balance text-5xl font-semibold tracking-[-0.05em] text-white sm:text-6xl lg:text-7xl">
-              Ship your React Native SaaS in 24 hours without rebuilding auth, billing, and backend plumbing.
+              Launch your React Native SaaS this weekend without rebuilding auth, billing, and backend plumbing.
             </h1>
             <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-white/66 sm:text-xl">
-              FluxKit is for founders who want to launch faster, look credible on day one, and get to revenue sooner without the setup grind.
+              FluxKit removes the weeks you lose wiring authentication, Stripe billing, notifications, and backend setup so you can ship sooner and start charging sooner.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -88,7 +88,7 @@ export function Hero() {
             </div>
 
             <div className="mt-4 text-sm text-white/50">
-              Stop building auth and billing from scratch. See the product instantly, then decide if it fits.
+              Skip weeks of setup. See the product instantly, then decide if it fits.
             </div>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-3">

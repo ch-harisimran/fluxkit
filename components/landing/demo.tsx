@@ -24,10 +24,10 @@ export function Demo() {
               Try without signup
             </div>
             <h2 className="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              See a real SaaS workflow instantly and picture your product at this level today.
+              See a real SaaS workflow in under 60 seconds and picture your product at this level today.
             </h2>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-white/62">
-              No setup required. The demo makes the value obvious in seconds so buyers can feel the product instead of guessing.
+              No setup required. Explore the app instantly and feel what you will ship on day one instead of guessing.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <motion.button

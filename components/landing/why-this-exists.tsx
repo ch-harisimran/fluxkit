@@ -50,6 +50,29 @@ export function WhyThisExists() {
                 </div>
               </motion.div>
             ))}
+
+            <motion.div
+              initial={{ opacity: 0, y: 18 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.35 }}
+              transition={{ duration: 0.55, delay: 0.24 }}
+              className="glass-panel rounded-[1.6rem] p-5"
+            >
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div>
+                  <p className="text-xs tracking-[0.22em] text-white/40 uppercase">Who this is for</p>
+                  <p className="mt-2 text-sm leading-6 text-white/72">
+                    Indie hackers, solo founders, SaaS builders, MVP teams, freelancers shipping paid products, and React Native developers who want to launch sooner.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-xs tracking-[0.22em] text-white/40 uppercase">Who this is not for</p>
+                  <p className="mt-2 text-sm leading-6 text-white/72">
+                    Enterprise orgs, teams that need custom internal infrastructure, or companies with large engineering departments already solving this in-house.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>

@@ -17,53 +17,53 @@ import {
 const features = [
   {
     icon: ShieldIcon,
-    title: "Authentication system",
-    description: "Save days of setup by starting with sign-in and access flows already wired into the product."
+    title: "Skip auth setup",
+    description: "Save 2 to 3 days by starting with sign-in and access flows already wired in."
   },
   {
     icon: BillingIcon,
-    title: "Stripe billing",
-    description: "Move faster to revenue with billing and webhook structure already prepared for paid plans."
+    title: "Charge sooner",
+    description: "Start billing customers immediately with Stripe-ready payment and webhook structure."
   },
   {
     icon: BellIcon,
-    title: "Push notifications backend",
-    description: "Keep users engaged with a notification backend that is ready when you need it."
+    title: "Ship engagement faster",
+    description: "Add push notifications without spending days on backend plumbing."
   },
   {
     icon: DatabaseIcon,
-    title: "Supabase database",
-    description: "Avoid early data mistakes by starting with a clean, scalable database foundation."
+    title: "Use Supabase from day one",
+    description: "Avoid early data mistakes with a clean, scalable database foundation."
   },
   {
     icon: CheckIcon,
-    title: "Setup validation system",
-    description: "Save time on onboarding by catching missing setup steps before they become blockers."
+    title: "Catch setup issues early",
+    description: "Save onboarding time by catching missing steps before they block your launch."
   },
   {
     icon: RocketIcon,
-    title: "Demo mode system",
-    description: "Show the product instantly, even before the full live flow is ready."
+    title: "Show the product instantly",
+    description: "Let buyers explore the app before the full live flow is finished."
   },
   {
     icon: LayersIcon,
-    title: "Clean architecture",
-    description: "Keep momentum high with a structure that makes the next feature easier to ship."
+    title: "Keep shipping faster",
+    description: "A clean structure makes the next feature easier to build and safer to ship."
   },
   {
     icon: TerminalIcon,
-    title: "Production-ready structure",
-    description: "Skip the folder chaos and start from a structure that feels ready for real customers."
+    title: "Launch-ready structure",
+    description: "Skip folder chaos and start from a codebase that feels ready for real customers."
   },
   {
     icon: SparkIcon,
-    title: "Premium visual system",
-    description: "Make the app feel worth paying for before users even try the first feature."
+    title: "Look worth paying for",
+    description: "Make the app feel credible before users try the first feature."
   },
   {
     icon: GlobeIcon,
-    title: "Launch-friendly foundation",
-    description: "Get to launch with less friction, less doubt, and a more confident first release."
+    title: "Launch with less friction",
+    description: "Get to market with less doubt and a more confident first release."
   }
 ];
 

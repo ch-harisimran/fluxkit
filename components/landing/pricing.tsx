@@ -5,26 +5,26 @@ import { ArrowRightIcon, CheckIcon } from "@/components/icons";
 
 const plans = [
   {
-    name: "Starter",
+    name: "Launch Faster",
     price: "$49",
     blurb: "Best if you want to validate fast and keep momentum.",
-    features: ["Core app structure", "Auth starter", "Setup validation"],
+    features: ["Core app structure ready", "Auth starter included", "Setup validation built in"],
     cta: "Buy Now",
     highlighted: false
   },
   {
-    name: "Pro",
+    name: "Launch & Monetize",
     price: "$99",
-    blurb: "Best for launching your first SaaS and moving toward revenue faster.",
-    features: ["Everything in Starter", "Billing + webhook structure", "Push notifications backend", "Demo mode system"],
+    blurb: "Best for launching your first SaaS and getting to revenue faster.",
+    features: ["Everything in Launch Faster", "Billing + webhooks ready", "Push notifications backend", "Demo mode system"],
     cta: "Buy Now",
     highlighted: true
   },
   {
-    name: "Enterprise",
+    name: "Ship Like a Team",
     price: "$149",
     blurb: "Best for teams that want the strongest starting point from day one.",
-    features: ["Everything in Pro", "Architecture polish", "Priority setup guidance"],
+    features: ["Everything in Launch & Monetize", "Architecture polish", "Priority setup guidance"],
     cta: "Buy Now",
     highlighted: false
   }
@@ -45,7 +45,7 @@ export function Pricing() {
             Pricing
           </div>
           <h2 className="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            The Pro plan is the easiest way to launch without second-guessing the stack.
+            The middle plan is the easiest way to launch without second-guessing the stack.
           </h2>
           <p className="mt-4 text-lg leading-8 text-white/62">
             You are buying speed, confidence, and a foundation that helps you launch sooner without feeling like you cut corners.

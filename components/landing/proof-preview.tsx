@@ -25,7 +25,7 @@ export function ProofPreview() {
             </p>
             <div className="mt-8 space-y-4">
               {[
-                "A real-app feel from the first screen",
+                "Real-app feel from the first screen",
                 "Production-ready structure included",
                 "A cleaner path from first click to first payment"
               ].map((item) => (

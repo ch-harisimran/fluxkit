@@ -37,7 +37,7 @@ export function FinalCta() {
                 href="#pricing"
                 className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/[0.04] px-6 py-4 text-sm font-semibold text-white/82 transition hover:bg-white/[0.08]"
               >
-                View pricing
+                Buy Now
               </a>
             </div>
           </div>

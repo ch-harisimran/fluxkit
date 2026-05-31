@@ -7,7 +7,7 @@ import { ArrowRightIcon } from "@/components/icons";
 const faqs = [
   {
     q: "Do I need backend experience?",
-    a: "No. The kit is built so you can move forward without becoming a backend expert first. It removes the hard setup work that usually slows launches down."
+    a: "No. The kit is designed so you can move forward without becoming a backend expert first. It removes the setup work that usually slows launches down."
   },
   {
     q: "Does this include Stripe billing already?",
@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "Can I use this for production apps?",
-    a: "Yes. It is designed to help you launch a real product with a stronger starting point and less setup friction."
+    a: "Yes. It is built to help you launch a real product with a stronger starting point and less setup friction."
   },
   {
     q: "Is setup difficult?",
