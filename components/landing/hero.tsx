@@ -60,10 +60,10 @@ export function Hero() {
               For indie hackers, solo founders, and MVP builders who want to launch fast
             </div>
             <h1 className="text-balance text-5xl font-semibold tracking-[-0.05em] text-white sm:text-6xl lg:text-7xl">
-              Launch your React Native SaaS this weekend without rebuilding auth, billing, and backend plumbing.
+              Stop rebuilding SaaS apps from scratch. Launch your React Native SaaS this weekend.
             </h1>
             <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-white/66 sm:text-xl">
-              FluxKit removes the weeks you lose wiring authentication, Stripe billing, notifications, and backend setup so you can ship sooner and start charging sooner.
+              FluxKit removes the weeks you lose wiring authentication, Stripe billing, notifications, onboarding, and backend setup so you can ship sooner and start charging sooner.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
